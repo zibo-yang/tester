@@ -10,4 +10,3 @@ CryptoKitties is one of the world’s first blockchain games. ‘Blockchain’ i
 
 {{< include-html "content/index1.html" >}}
 
-Here as you could see 
