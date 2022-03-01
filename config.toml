@@ -1,5 +1,5 @@
 title = "Notre-Dame de Paris"
-baseURL = "https://example.com"
+baseURL = "https://zibo-yang.github.io/tester/"
 languageCode = "en-us"
 theme = ["ananke", "hugo-chart"]
 resourceDir = "../resources"
