@@ -9,19 +9,22 @@
       <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.7.0/dist/web3.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bluebird@3.7.2/js/browser/bluebird.min.js"></script>
+      <script type="text/javascript" src="../ether.js"></script>  
     </head>
    <body>
-      <h1>NFT Analyzer</h1>
-      <h2>Crypto Kitties</h2>
+      <!-- <h1>NFT Analyzer</h1>
+      <h2>Crypto Kitties</h2> -->
       <div class= 'Container'>
-        <canvas id="Chart1"></canvas>
-        <canvas id="Chart2"></canvas>
-      </div>
-      <h2>Crypto Punks</h2>
-      <div class= "Container1">
-         <canvas id="Chart4"></canvas>
-         <canvas id="Chart5"></canvas>
-      </div>
-      <script type="module" src="../ether.js"></script>
+         <canvas id="Chart1"></canvas>
+         <canvas id="Chart2"></canvas>
+       </div>
+       <script type="module" src="../ether.js">
+       </script>
+       <script>
+          const nft_contract = new Array(contract_address_list[1]);
+          event_charts(nft_contract);
+          console.log('nft_contract');
+          console.log(nft_contract);
+       </script>
    </body>
 </html>
