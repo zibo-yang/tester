@@ -16,7 +16,7 @@ In order to re-implement this repository locally, please install [hugo extended]
 hugo server -D
 ```
 
-## Drawback
+## Drawbacks
 Although the basic frame of this NFT Analyzer has been erected, there are plenty of things inconvenient and incomplete to further our implementation:
 
 * Lack of correlation matrix chart: As everyone could see with the chart of [cryptokitties](https://zibo-yang.github.io/tester/post/chapter-1/)
