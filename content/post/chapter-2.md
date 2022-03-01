@@ -1,6 +1,6 @@
 ---
 description: ""
-featured_image: "../image1.png"
+featured_image: "post/image1.png"
 tags: []
 title: "Statistic Analysis of Crypto Punks"
 ---

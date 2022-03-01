@@ -1,6 +1,6 @@
 ---
 description: ""
-featured_image: "../image2.png"
+featured_image: "post/image2.png"
 tags: []
 title: "Statistic Analysis of Crypto Kitties"
 ---
