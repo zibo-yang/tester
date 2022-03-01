@@ -8,3 +8,5 @@ The Cryptopunks are one of the earliest examples of a "Non-Fungible Token" on Et
 
 {{< include-html "content/index2.html" >}}
 
+Here as you could see all the data
+

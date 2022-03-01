@@ -1,5 +1,5 @@
-const path = 'wss://mainnet.infura.io/ws/v3/b91c9b9835a847ff97628fc272606412';
-const provider = new Web3.providers.WebsocketProvider(path);
+const path1 = 'wss://mainnet.infura.io/ws/v3/b91c9b9835a847ff97628fc272606412';
+const provider = new Web3.providers.WebsocketProvider(path1);
 provider.on('error', e => console.error('WS Error', e));
 provider.on('end', e => console.error('WS End', e));
 
@@ -153,7 +153,7 @@ function event_partition(specific_events, partition=1, from=14160000, to= 141642
 
 
 
-function event_value(event_occur, partition=10, from=14160000, to= 14164271){
+function event_value(event_occur, partition=30, from=14160000, to= 14164271){
     let sum = 0;
     for(let i = 0; i < event_occur.length; i++){
         let event_now = event_occur[i];
