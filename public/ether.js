@@ -153,7 +153,7 @@ function event_partition(specific_events, partition=1, from=14160000, to= 141642
 
 
 
-function event_value(event_occur, partition=50, from=14160000, to= 14164271){
+function event_value(event_occur, partition=30, from=14160000, to= 14164271){
     let sum = 0;
     for(let i = 0; i < event_occur.length; i++){
         let event_now = event_occur[i];

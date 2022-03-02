@@ -158,6 +158,8 @@ function event_value(event_occur, partition=30, from=14160000, to= 14164271){
     for(let i = 0; i < event_occur.length; i++){
         let event_now = event_occur[i];
         let result_values = event_now.returnValues;
+        console.log('result_values');
+        console.log(result_values);
         if (result_values.hasOwnProperty('value')){
             let value = event_now.returnValues.value;
             console.log('value');
